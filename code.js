@@ -9,7 +9,7 @@ function XO(str) {
       hasO++;
  
     }
-    if(hasX===hasO||str==="")
+    if(hasX===hasO)
     return true;
     
     else return false;
